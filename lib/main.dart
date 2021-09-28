@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
-import 'package:syncfusion_flutter_core/core.dart';
 
 void main() {
-  // Register your license here
-  SyncfusionLicense.registerLicense(null);
   return runApp(ChartApp());
 }
 
