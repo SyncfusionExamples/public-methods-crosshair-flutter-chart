@@ -59,8 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(title: Text('Crosshair')),
         body: Container(
             child: Column(children: <Widget>[
-          FlatButton(
-            color: Theme.of(context).primaryColor,
+          ElevatedButton(
             child: Text('Show'),
             onPressed: show,
           ),
